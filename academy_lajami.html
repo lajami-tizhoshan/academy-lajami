@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="آکادمی تیزهوشان لجامی؛ فضایی برای یادگیری، رشد و شکوفایی استعدادها">
+  <title>آکادمی تیزهوشان لجامی</title>
+  <style>
+    :root { --navy:#14213d; --blue:#2563eb; --gold:#f4b942; --ink:#172033; --muted:#64748b; --paper:#f5f8ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Tahoma, Arial, sans-serif; color:var(--ink); background:var(--paper); line-height:1.9; }
+    header { background:linear-gradient(135deg,#14213d,#1d4ed8); color:white; padding:22px 6%; }
+    nav { max-width:1100px; margin:auto; display:flex; justify-content:space-between; align-items:center; gap:18px; flex-wrap:wrap; }
+    .brand { font-weight:800; font-size:1.15rem; }
+    nav a { color:white; text-decoration:none; margin-inline-start:18px; font-size:.95rem; }
+    .hero { max-width:1100px; margin:auto; padding:78px 6% 86px; color:white; }
+    .hero-wrap { background:linear-gradient(120deg,rgba(20,33,61,.97),rgba(37,99,235,.88)); border-radius:28px; margin:28px auto; max-width:1200px; overflow:hidden; }
+    .eyebrow { color:var(--gold); font-weight:bold; }
+    h1 { font-size:clamp(2rem,5vw,3.6rem); line-height:1.45; margin:10px 0 16px; }
+    .hero p { max-width:680px; color:#e2e8f0; font-size:1.08rem; }
+    .button { display:inline-block; margin-top:18px; background:var(--gold); color:#18243c; padding:10px 22px; border-radius:12px; text-decoration:none; font-weight:bold; }
+    main { max-width:1100px; margin:0 auto; padding:18px 6% 70px; }
+    section { margin-top:38px; }
+    h2 { color:var(--navy); font-size:1.7rem; margin-bottom:8px; }
+    .intro { color:var(--muted); margin-top:0; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-top:20px; }
+    .card { background:white; padding:22px; border:1px solid #e2e8f0; border-radius:18px; box-shadow:0 8px 24px rgba(15,23,42,.045); }
+    .icon { width:44px; height:44px; display:grid; place-items:center; border-radius:13px; background:#eff6ff; color:var(--blue); font-size:1.35rem; }
+    .card h3 { margin:12px 0 4px; color:var(--navy); }
+    .card p { margin:0; color:var(--muted); font-size:.95rem; }
+    .about { background:white; border-radius:20px; padding:26px; border:1px solid #e2e8f0; }
+    footer { background:var(--navy); color:#cbd5e1; text-align:center; padding:22px 6%; font-size:.9rem; }
+    @media (max-width:600px) { nav a { margin-inline-start:10px; } .hero { padding-top:48px; padding-bottom:54px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">🎓 آکادمی تیزهوشان لجامی</div>
+      <div>
+        <a href="#home">خانه</a>
+        <a href="#about">درباره ما</a>
+        <a href="#programs">برنامه‌ها</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="hero-wrap" id="home">
+    <div class="hero">
+      <div class="eyebrow">به نام خدا</div>
+      <h1>آینده‌ای روشن با یادگیری و تلاش</h1>
+      <p>به آکادمی تیزهوشان لجامی خوش آمدید؛ جایی برای پرورش استعدادها، تقویت مهارت‌ها و ساختن مسیر موفقیت در یادگیری.</p>
+      <a class="button" href="#about">بیشتر آشنا شوید</a>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>درباره آکادمی</h2>
+      <p class="intro">یادگیری، رشد و شکوفایی استعدادها</p>
+      <div class="about">
+        آکادمی تیزهوشان لجامی با هدف فراهم‌کردن فضایی انگیزه‌بخش برای آموزش و پیشرفت طراحی شده است. در این مسیر، کنجکاوی، پشتکار و یادگیری پیوسته ارزشمند هستند.
+      </div>
+    </section>
+
+    <section id="programs">
+      <h2>بخش‌های آکادمی</h2>
+      <p class="intro">برای یادگیری بهتر و گام‌به‌گام</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📘</div>
+          <h3>آموزش</h3>
+          <p>یادگیری مفاهیم درسی با رویکردی روشن و منظم.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧠</div>
+          <h3>تقویت مهارت‌ها</h3>
+          <p>تمرین تفکر، حل مسئله و پرورش خلاقیت.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🌱</div>
+          <h3>رشد و پیشرفت</h3>
+          <p>تشویق به تلاش مستمر و شکوفایی توانایی‌های فردی.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© آکادمی تیزهوشان لجامی — تمامی حقوق محفوظ است.</footer>
+</body>
+</html>
